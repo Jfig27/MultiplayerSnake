@@ -7,7 +7,7 @@ const SNAKE_COLOR = '#c2c2c2';
 const FOOD_COLOR = '#e66916';
 const SNAKE_COLOR_2 = 'red';
 
-const socket = io('http://localhost:3000');
+const socket = io('https://murmuring-sierra-96339.herokuapp.com/');
 
 socket.on("message", () => {
     console.log("heyyy -from client");
